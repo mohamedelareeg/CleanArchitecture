@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  docker-login:
+    image: alpine:latest
+    environment:
+      - DOCKER_CLI_ACI=1
+
+  cleanarchitecture.api:
+    image: ${DOCKER_REGISTRY-}cleanarchitecture-api
+    build:
+      context: .
+      dockerfile: CleanArchitecture.Api/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - docker-login
+
+  cleanarchitecture.mvc:
+    image: ${DOCKER_REGISTRY-}cleanarchitecture-mvc
+    build:
+      context: .
+      dockerfile: CleanArchitecture.Mvc/Dockerfile
+    ports:
+      - "5001:80"
+    depends_on:
+      - docker-login
+      - cleanarchitecture.api
