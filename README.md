@@ -1,4 +1,4 @@
-# Clean Architecture - .NET Core Web API
+# Clean Architecture - .NET Core 8
 
 ## Overview
 
