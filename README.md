@@ -1,5 +1,20 @@
 # Clean Architecture - .NET Core 8
 
+<p align="center">
+  <a href="https://github.com/mohamedelareeg/CleanArchitecture/actions/workflows/main.yml">
+    <img src="https://github.com/mohamedelareeg/CleanArchitecture/actions/workflows/main.yml/badge.svg" alt="Build Status">
+  </a>
+  <a href="https://github.com/mohamedelareeg/CleanArchitecture/releases">
+    <img src="https://img.shields.io/github/v/release/mohamedelareeg/CleanArchitecture" alt="Release">
+  </a>
+  <a href="https://github.com/mohamedelareeg/CleanArchitecture/issues">
+    <img src="https://img.shields.io/github/issues/mohamedelareeg/CleanArchitecture" alt="Issues">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+  </a>
+</p>
+
 ## Overview
 
 This repository serves as a hands-on learning experience for Clean Architecture principles in .NET Core. It organizes the codebase into distinct layers for scalability, maintainability, and separation of concerns.
