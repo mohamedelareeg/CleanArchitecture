@@ -49,6 +49,37 @@ The [CleanArchitecture.Persistence](./CleanArchitecture.Persistence) project dea
 
 [CleanArchitecture.MVC](./CleanArchitecture.MVC) represents the MVC (Model-View-Controller) layer, handling the presentation logic for the user interface. It interacts with the application layer to retrieve and display data.
 
+## Learn More
+
+Ready to dive deeper into Clean Architecture? Check out the following resources:
+
+### Books
+
+1. [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) by Robert C. Martin
+   - An in-depth guide by Uncle Bob himself, exploring the principles and patterns of Clean Architecture.
+
+2. [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) by Eric Evans
+   - A classic book on Domain-Driven Design, offering insights into designing complex systems.
+
+
+### Articles and Blogs
+
+5. [Exploring Clean Architecture in ASP.NET Core](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture) on Microsoft Docs
+   - Microsoft's guide on implementing Clean Architecture in ASP.NET Core applications.
+
+6. [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) by Robert C. Martin
+   - Uncle Bob's blog post that introduced the Clean Architecture concept.
+
+### Community and Forums
+
+7. [Clean Coders](https://cleancoders.com/)
+   - An online community and platform by Robert C. Martin, offering videos, articles, and discussions on clean code and architecture.
+
+8. [Stack Overflow - Clean Architecture](https://stackoverflow.com/questions/tagged/clean-architecture)
+   - Explore questions and discussions related to Clean Architecture on Stack Overflow.
+
+Remember, the best way to learn is by doing. Feel free to explore the code in each layer and experiment with building your own features following the Clean Architecture principles!
+
 
 ## Features
 
