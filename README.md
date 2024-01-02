@@ -23,31 +23,32 @@ This repository serves as a hands-on learning experience for Clean Architecture 
 
 ### 1. CleanArchitecture.Domain
 
-The heart of the application, `CleanArchitecture.Domain`, holds the domain entities and business logic. It represents the core of your application and remains independent of any external frameworks.
+The heart of the application, [CleanArchitecture.Domain](./CleanArchitecture.Domain), holds the domain entities and business logic. It represents the core of your application and remains independent of any external frameworks.
 
 ### 2. CleanArchitecture.Application
 
-`CleanArchitecture.Application` encapsulates application-specific business rules, use cases, and application services. It acts as a mediator between the domain layer and the infrastructure layer.
+[CleanArchitecture.Application](./CleanArchitecture.Application) encapsulates application-specific business rules, use cases, and application services. It acts as a mediator between the domain layer and the infrastructure layer.
 
 ### 3. CleanArchitecture.Infrastructure
 
-`CleanArchitecture.Infrastructure` contains implementation details that are external to the application. It includes data access, external services, and other infrastructure concerns.
+[CleanArchitecture.Infrastructure](./CleanArchitecture.Infrastructure) contains implementation details that are external to the application. It includes data access, external services, and other infrastructure concerns.
 
 ### 4. CleanArchitecture.Identity
 
-`CleanArchitecture.Identity` focuses on user identity and authentication aspects, handling user-related functionalities.
+[CleanArchitecture.Identity](./CleanArchitecture.Identity) focuses on user identity and authentication aspects, handling user-related functionalities.
 
 ### 5. CleanArchitecture.Persistence
 
-The `CleanArchitecture.Persistence` project deals with data storage and retrieval, using technologies such as Entity Framework Core to interact with the database.
+The [CleanArchitecture.Persistence](./CleanArchitecture.Persistence) project deals with data storage and retrieval, using technologies such as Entity Framework Core to interact with the database.
 
 ### 6. CleanArchitecture.Api
 
-`CleanArchitecture.Api` serves as the entry point for the Web API application. It utilizes the Clean Architecture principles to handle incoming HTTP requests and coordinate actions across different layers.
+[CleanArchitecture.Api](./CleanArchitecture.Api) serves as the entry point for the Web API application. It utilizes the Clean Architecture principles to handle incoming HTTP requests and coordinate actions across different layers.
 
 ### 7. CleanArchitecture.MVC
 
-`CleanArchitecture.MVC` represents the MVC (Model-View-Controller) layer, handling the presentation logic for the user interface. It interacts with the application layer to retrieve and display data.
+[CleanArchitecture.MVC](./CleanArchitecture.MVC) represents the MVC (Model-View-Controller) layer, handling the presentation logic for the user interface. It interacts with the application layer to retrieve and display data.
+
 
 ## Features
 
@@ -57,39 +58,69 @@ The `CleanArchitecture.Persistence` project deals with data storage and retrieva
 2. **FluentValidation:**
    - Integrates FluentValidation for robust input validation and improved request handling.
 
+**Learn More:**
+[FluentValidation Documentation](https://fluentvalidation.net/)
+
 3. **Mediator:**
    - Implements the Mediator pattern for efficient communication between components.
+
+**Learn More:**
+[MediatR Documentation](https://github.com/jbogard/MediatR)
 
 4. **AutoMapper:**
    - Uses AutoMapper for simplified object-to-object mapping.
 
+**Learn More:**
+[AutoMapper Documentation](https://docs.automapper.org/)
+
 5. **CQRS (Command Query Responsibility Segregation):**
    - Adopts the CQRS pattern for a clear separation of concerns between commands and queries.
+
+**Learn More:**
+[CQRS Pattern Overview](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 
 6. **Entity Framework Core:**
    - Leverages Entity Framework Core for data access and database management.
 
+**Learn More:**
+[Entity Framework Core Documentation](https://docs.microsoft.com/en-us/ef/core/)
+
 7. **Serilog:**
    - Incorporates Serilog for structured logging and easy log analysis.
+
+**Learn More:**
+[Serilog Documentation](https://serilog.net/)
 
 8. **JWT (JSON Web Tokens):**
    - Implements JWT for secure authentication and authorization.
 
+**Learn More:**
+[JWT Introduction](https://jwt.io/introduction/)
+
 9. **Authorization:**
    - Integrates authorization mechanisms to control access to different parts of the application.
+
+**Learn More:**
+[ASP.NET Core Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/)
 
 10. **Globalization:**
     - Supports globalization for multi-language and culture-specific content.
 
+**Learn More:**
+[Globalization and Localization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization)
+
 11. **Dependency Injection:**
     - Utilizes the built-in dependency injection in .NET Core for managing application components.
+
+**Learn More:**
+[Dependency Injection in .NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 
 ## Learning Clean Architecture
 
 If you're new to Clean Architecture and .NET Core, follow these steps to get started:
 
 1. **Understand the Layers:**
-   - Explore the `CleanArchitecture.Domain`, `CleanArchitecture.Application`, and `CleanArchitecture.Infrastructure` layers to grasp the separation of concerns.
+   - Explore the [CleanArchitecture.Domain](./CleanArchitecture.Domain), [CleanArchitecture.Application](./CleanArchitecture.Application), and [CleanArchitecture.Infrastructure](./CleanArchitecture.Infrastructure) layers to grasp the separation of concerns.
 
 2. **Study CQRS:**
    - Dig into the CQRS pattern implemented in this project to understand the benefits of separating command and query responsibilities.
@@ -97,7 +128,10 @@ If you're new to Clean Architecture and .NET Core, follow these steps to get sta
 3. **Explore Dependency Injection:**
    - Investigate how dependency injection is used in .NET Core within the context of this project.
 
-4. **Read the CleanArchitecture.Api and CleanArchitecture.MVC Projects:**
+**Learn More:**
+[Dependency Injection in .NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
+
+4. **Read the [CleanArchitecture.Api](./CleanArchitecture.Api) and [CleanArchitecture.MVC](./CleanArchitecture.MVC) Projects:**
    - Analyze the entry points of the application and understand how they interact with the underlying layers.
 
 5. **Experiment with Features:**
@@ -121,7 +155,8 @@ Run the application in Docker containers using Docker Compose:
     docker-compose up -d
     ```
 
-This command will build the Docker images and start the containers in detached mode.
+**Related Repositories:**
+- [Docker Documentation](https://docs.docker.com/)
 
 2. **Access the Web API:**
 
@@ -153,11 +188,15 @@ The CI/CD pipeline is automatically triggered on each push to the main branch. I
 4. **Deploy:**
    - Deploys the application to the specified environment.
 
+**Learn More:**
+[GitHub Actions Documentation](https://docs.github.com/en/actions)
+
 Feel free to customize the CI/CD workflow in the `.github/workflows` directory based on your deployment needs.
 
 ## Usage
 
 This Web API provides a basic structure adhering to Clean Architecture. Customize it based on your specific application needs.
+
 
 ## Contributing
 
@@ -167,6 +206,12 @@ This Web API provides a basic structure adhering to Clean Architecture. Customiz
 4. Push to the branch: `git push origin feature/my-feature`.
 5. Open a pull request.
 
+**Related Repositories:**
+- [Clean Architecture Contribution Guidelines](https://github.com/mohamedelareeg/CleanArchitecture/blob/main/CONTRIBUTING.md)
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/mohamedelareeg/CleanArchitecture/blob/main/LICENSE) file for details.
+
+**Related Repositories:**
+- [MIT License Information](https://opensource.org/licenses/MIT)
