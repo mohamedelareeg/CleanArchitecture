@@ -19,10 +19,13 @@ jobs:
         dotnet-version: 8.0.100
 
     - name: Restore dependencies
-      run: dotnet restore ./CleanArchitecture.Api/CleanArchitecture.Api.csproj
+      run: dotnet restore
 
     - name: Build
       run: dotnet build --configuration Release
 
     - name: Run tests for CleanArchitecture.Api
       run: dotnet test --configuration Release --no-restore --project ./CleanArchitecture.Api/CleanArchitecture.Api.csproj
+
+    - name: Run tests for CleanArchitecture.Mvc
+      run: dotnet test --configuration Release --no-restore --project ./CleanArchitecture.Mvc/CleanArchitecture.Mvc.csproj
