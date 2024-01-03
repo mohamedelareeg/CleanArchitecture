@@ -13,16 +13,7 @@
   "UsernameExists": "Username '{0}' already exists.",
   "EmailExists": "Email '{0}' already exists.",
   "BadRequestDetails": "Bad request. See errors for details.",
-  "ParentFolderNotFound": "Parent folder not found.",
-  "FolderNameAlreadyExists": "Folder name already exists.",
-  "FolderNameUpdatedSuccessfully": "Folder name updated successfully.",
-  "DocumentNameUpdatedSuccessfully": "Document name updated successfully.",
-  "InvalidDocumentFolderTypeOrNotFound": "Invalid document/folder type or not found.",
-  "FolderNotFound": "Folder not found.",
-  "FolderName": "Folder Name",
-  "FolderId": "Folder ID",
-  "DocumentName": "Document Name",
-  "DocumentId": "Document ID",
+  
   "EmailNotNull": "Email cannot be null.",
   "EmailNotEmpty": "Email cannot be empty.",
   "InvalidEmail": "Invalid email address.",
@@ -34,11 +25,6 @@
   "PasswordNoSpaces": "Password cannot contain spaces.",
   "PasswordMaxLength": "Password cannot exceed 50 characters.",
 
-  "FolderNameNotEmpty": "Folder name cannot be empty.",
-  "FolderNameNotNull": "Folder name cannot be null.",
-  "FolderNameMaxLength": "Folder name cannot exceed 32 characters.",
-  "FolderNameMinLength": "Folder name must be at least 4 characters long.",
-  "CurrentFolderIdGreaterThanZero": "Current folder ID must be greater than 0.",
 
   "IdGreaterThanZero": "Id should be greater than 0.",
   "NewNameNotEmpty": "NewName cannot be empty.",
@@ -67,7 +53,7 @@
 
   "DearUser": "Dear User",
   "BestRegards": "Best Regards",
-  "CompanyName": "Namaa Infologistics",
+  "CompanyName": "Company Name",
   "RecipientName": "Recipient's Name",
   "NoSubmitted": "No Submitted"
 }
