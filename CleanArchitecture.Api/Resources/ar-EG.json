@@ -13,16 +13,7 @@
   "UsernameExists": "اسم المستخدم '{0}' موجود بالفعل.",
   "EmailExists": "البريد الإلكتروني '{0}' موجود بالفعل.",
   "BadRequestDetails": "طلب غير صالح. راجع الأخطاء للتفاصيل.",
-  "ParentFolderNotFound": "لم يتم العثور على المجلد الرئيسي.",
-  "FolderNameAlreadyExists": "اسم المجلد موجود بالفعل.",
-  "FolderNameUpdatedSuccessfully": "تم تحديث اسم المجلد بنجاح.",
-  "DocumentNameUpdatedSuccessfully": "تم تحديث اسم المستند بنجاح.",
-  "InvalidDocumentFolderTypeOrNotFound": "نوع المستند/المجلد غير صالح أو غير موجود.",
-  "FolderNotFound": "المجلد غير موجود.",
-  "FolderName": "اسم المجلد",
-  "FolderId": "معرف المجلد",
-  "DocumentName": "اسم المستند",
-  "DocumentId": "معرف المستند",
+
   "EmailNotNull": "لا يمكن أن يكون البريد الإلكتروني فارغًا.",
   "EmailNotEmpty": "لا يمكن أن يكون البريد الإلكتروني فارغًا.",
   "InvalidEmail": "عنوان البريد الإلكتروني غير صالح.",
@@ -34,12 +25,7 @@
   "PasswordNoSpaces": "لا يمكن أن تحتوي كلمة المرور على مسافات.",
   "PasswordMaxLength": "لا يمكن أن تتجاوز كلمة المرور 50 حرفًا.",
 
-  "FolderNameNotEmpty": "اسم المجلد لا يمكن أن يكون فارغًا.",
-  "FolderNameNotNull": "اسم المجلد لا يمكن أن يكون قيمة فارغة.",
-  "FolderNameMaxLength": "لا يمكن أن يتجاوز اسم المجلد 32 حرفًا.",
-  "FolderNameMinLength": "يجب أن يكون اسم المجلد على الأقل 4 أحرف.",
-  "CurrentFolderIdGreaterThanZero": "يجب أن يكون معرف المجلد الحالي أكبر من 0.",
-
+ 
   "IdGreaterThanZero": "يجب أن يكون المعرف أكبر من 0.",
   "NewNameNotEmpty": "لا يمكن أن يكون الاسم الجديد فارغًا.",
   "NewNameMaxLength": "لا يمكن أن يتجاوز الاسم الجديد 255 حرفًا.",
@@ -67,7 +53,7 @@
 
   "DearUser": "عزيزي المستخدم",
   "BestRegards": "مع أطيب التحيات",
-  "CompanyName": "نماء لتكنولوجيا المعلومات والخدمات اللوجيستية",
+  "CompanyName": "اسم الشركة",
   "RecipientName": "اسم المستلم",
   "NoSubmitted": "غير مقدم"
 }
